@@ -1,11 +1,11 @@
 .song {
     width: 30%;
-    margin: 5px;
+    margin: 5px auto;
     display: flex;
     flex-direction: horizontal;
     justify-content: space-between;
-    background-color: rgba(162, 216, 254, 0.211);
-    border-radius: 7px 40% 40% 7px;
+    background-color: rgba(162, 216, 254, 0.841);
+    border-radius: 7px;
 }
 
 .song * {
@@ -14,8 +14,15 @@
 
 section {
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 img {
-    border-radius: 0 40% 40% 0;
+    border-radius: 0 7px 7px 0;
+}
+
+audio {
+    margin: auto 0 0 0;
 }

@@ -2,12 +2,12 @@ import '../stylesheets/genreSelector.css'
 
 const GenreSelector = () => {
     return(
-        <div>
+        <section className="genre-selector">
             <button>All</button>
             <button>Rock</button>
             <button>Dance</button>
             <button>Country</button>
-        </div>
+        </section>
     )
 }
 

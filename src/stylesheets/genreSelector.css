@@ -1,4 +1,19 @@
-div {
-    background-color: aquamarine;
-    height: fit-content;
+.genre-selector {
+    display: flex;
+    width: 400px;
+    /* background-color: rgb(206, 209, 212); */
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+button {
+    height: 30px;
+    width: 25%;
+    font-weight: bolder;
+    margin: 5px;
+    border: none;
+    background-color: rgba(162, 216, 254, 0.841);
+    cursor: pointer;
+    border-radius: 2px;
 }

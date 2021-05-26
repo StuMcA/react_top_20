@@ -1,5 +1,5 @@
 .song {
-    width: 30%;
+    width: 500px;
     margin: 5px auto;
     display: flex;
     flex-direction: horizontal;
